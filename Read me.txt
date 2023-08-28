@@ -1,0 +1,7 @@
+
+git config --global init.defaultBranch main
+
+
+ctr+, = settings
+
+git clone + Paste
