@@ -13,6 +13,8 @@ def main():
 
 def generate_horses(num_horses):
     funny_names = [
+        "Shirtless Booper",
+        "Moonrunner Mother",
         "Sir Galloping Giggles",
         "Mystical Mane Master",
         "Captain Thunderhooves",
