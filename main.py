@@ -27,13 +27,13 @@ def get_player_choice(horses):
     num_horses = len(horses)
     while True:
         try:
-            choice = int(input(f"Choose a horse (1-{num_horses}): "))
+            choice = int(input(f"Choose a horse (1-{num_horses}):  "))
             if 1 <= choice <= num_horses:
                 return choice - 1  # Adjust index to match list indexing
             else:
                 print("Invalid choice. Please select a valid horse.")
         except ValueError:
-            print("Invalid input. Please enter a number.")
+            print("Invalid input. Please enter a valid number.")
 
 def play_race(horses, player_choice):
     winner = random.choice(horses)
@@ -47,3 +47,4 @@ def play_race(horses, player_choice):
 
 if __name__ == "__main__":
     main()
+
